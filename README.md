@@ -20,4 +20,25 @@ The following alorithims were applied in order to reduce the dimension of 590 fe
 
 
 
+### Dataset
+
+Dataset used for this project is secom semiconductor manufacturing dataset from UCI machine learning repository. (http://archive.ics.uci.edu/ml/datasets/secom)
+secom dataset is a classification dataset with 1567 samples and 591 attributes (590 variables and 1 class variable).
+
+
+### Comparative Analysis
+
+My base line model was logistic regression with the following accuracy.
+Training - 99%
+Test - 86%
+
+It is obvious that my model is overfitting in this case.
+
+After trying different algorithms, it was found that PCA with 50 features give the best result
+Trainig - 93.33%
+Test - 93.11%
+
+
+
+
 
