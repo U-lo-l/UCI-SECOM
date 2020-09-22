@@ -29,13 +29,17 @@ secom dataset is a classification dataset with 1567 samples and 591 attributes (
 ### Comparative Analysis
 
 My base line model was logistic regression with the following accuracy.
+
 Training - 99%
+
 Test - 86%
 
 It is obvious that my model is overfitting in this case.
 
 After trying different algorithms, it was found that PCA with 50 features give the best result
+
 Trainig - 93.33%
+
 Test - 93.11%
 
 
